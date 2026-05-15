@@ -1,0 +1,161 @@
+# ─────────────────────────────────────────────────────────────────────
+# .gitignore for the public OTA-mirror repo (monerousd/ota-mirror)
+#
+# This file is the security perimeter for the public OTA-distribution
+# repo. It must be PERMISSIVE — i.e. block everything by default and
+# allowlist exactly the build artifacts the wallet's electron-updater
+# needs to fetch. A leaked seed / PAT / SSH key / wallet keys file
+# pushed to a public GitHub repo is a permanent leak — git history
+# survives even after deletion, and bots scrape new commits in real
+# time looking for credentials.
+#
+# The pattern: deny everything (`*`), then explicitly un-ignore the
+# narrow set of files we know are safe. New file types added later
+# require a PR that updates this file.
+# ─────────────────────────────────────────────────────────────────────
+
+# Default-deny — the protected stance.
+*
+
+# Allow only the OTA-mirror artifacts:
+
+# electron-updater manifests (tiny YAML)
+!latest-mac.yml
+!latest.yml
+!latest-linux.yml
+
+# Mac installer artifacts
+!Monero USD Wallet*.dmg
+!Monero USD Wallet*.zip
+
+# Windows installer artifacts
+!Monero USD Wallet Setup*.exe
+
+# Linux installer artifacts
+!Monero USD Wallet*.AppImage
+!monerousd-desktop_*.deb
+
+# Differential-update blockmaps (tiny binary, alongside each artifact)
+!*.blockmap
+
+# README + this gitignore so the repo isn't featureless
+!.gitignore
+!README.md
+
+# GitHub Pages custom-domain marker — REQUIRED for the wallet's
+# OTA endpoint to resolve at update.monerousd.org instead of the
+# default <user>.github.io URL. Single-line file containing the
+# bare hostname.
+!CNAME
+
+# ─────────────────────────────────────────────────────────────────────
+# Explicit deny-list for high-risk file extensions (defense in depth —
+# the leading `*` already covers these, but listing explicitly makes
+# the intent unambiguous to a reader).
+# ─────────────────────────────────────────────────────────────────────
+
+# Wallet seeds, keys, recovery phrases
+*.seed
+*.keys
+*.wallet
+*.wallet.json
+*.address.txt
+*.spend_key
+*.view_key
+mnemonic*
+seed*
+recovery*
+
+# SSH / SSL / signing keys
+id_rsa
+id_ed25519
+id_ecdsa
+id_dsa
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.gpg
+*.asc
+
+# Cryptocurrency wallet files (any chain)
+wallet.dat
+*.wallet.dat
+keystore*.json
+UTC--*
+
+# Environment / config files that commonly hold secrets
+.env
+.env.*
+*.envrc
+.envrc
+secrets.json
+secrets.yml
+secrets.yaml
+credentials.json
+credentials.yml
+config.local.*
+*.secret
+
+# Auth tokens / API keys
+*.token
+*.pat
+*.api_key
+.npmrc
+.netrc
+
+# Personal config dirs sometimes copied by mistake
+.aws/
+.ssh/
+.gnupg/
+.monerousd/
+.config/
+.docker/
+
+# Dev artifacts — should never be in an OTA repo anyway
+node_modules/
+dist/
+build/
+out/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+.cache/
+
+# Database files (backend state, local indexer state, etc.)
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Claude / agent state
+.claude/
+.cursor/
+
+# Source code (this is an OTA-MIRROR repo, never source)
+*.js
+*.ts
+*.cjs
+*.mjs
+*.cpp
+*.h
+*.rs
+*.go
+*.py
+*.sh
+*.bash
+src/
+backend/
+frontend/
+tests/
+
+# Docs that shouldn't be on the OTA mirror
+*.md
+!README.md

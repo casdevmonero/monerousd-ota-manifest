@@ -1,0 +1,8 @@
+version: 1.2.205
+files:
+  - url: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.205/Monero.USD.Wallet.Setup.1.2.205.exe
+    sha512: XQ44NDOG4Cmi6dXau6fnx0c++by8mY7fgM0p/CQoB4UdBYaZCHAlt6q4PnmecXIlT9Ifvs7oIqwjzXZy8Bvcqg==
+    size: 204878590
+path: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.205/Monero.USD.Wallet.Setup.1.2.205.exe
+sha512: XQ44NDOG4Cmi6dXau6fnx0c++by8mY7fgM0p/CQoB4UdBYaZCHAlt6q4PnmecXIlT9Ifvs7oIqwjzXZy8Bvcqg==
+releaseDate: '2026-05-06T22:08:05.187Z'

@@ -1,0 +1,12 @@
+version: 1.2.205
+files:
+  - url: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.205/Monero.USD.Wallet-1.2.205.AppImage
+    sha512: R13SVdL464gtpqEDR3Dg1U3daes842XEIBJ7C5fU4BnuSUJHK7ANEPzqSwdDPx2S0GFqONoGpogEbSKQsqaPtQ==
+    size: 264692569
+    blockMapSize: 275309
+  - url: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.205/monerousd-desktop_1.2.205_amd64.deb
+    sha512: xKsW7zKmVbJcFauP7aRPrAer682/CgtUD/AwD9ESP/tMtJAIj59Bvb28QDpqVrLy6W5FMx1Nuh5lKmrLcHkI8A==
+    size: 96
+path: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.205/Monero.USD.Wallet-1.2.205.AppImage
+sha512: R13SVdL464gtpqEDR3Dg1U3daes842XEIBJ7C5fU4BnuSUJHK7ANEPzqSwdDPx2S0GFqONoGpogEbSKQsqaPtQ==
+releaseDate: '2026-05-06T22:06:15.471Z'
