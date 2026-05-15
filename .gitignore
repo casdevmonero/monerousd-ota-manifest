@@ -48,6 +48,19 @@
 # bare hostname.
 !CNAME
 
+# No-islanding Layer 1: signed peer manifest. Fetched every 30 min
+# by every desktop wallet via update.monerousd.org/peer-manifest.json,
+# FROST-verified against the pinned PEER_MANIFEST pubkey in
+# build-1261/lib/frost-quorum-verifier.js. Public + safe to mirror
+# (no key material; only public peer IP:port + ed25519 signature).
+# Published by scripts/publish-peer-manifest.js on the release machine.
+!peer-manifest.json
+
+# Legacy seed manifest (publish-seed-manifest.js wire format —
+# different shape, preserved for backward-compat callers that may
+# still read it).
+!seeds.json
+
 # ─────────────────────────────────────────────────────────────────────
 # Explicit deny-list for high-risk file extensions (defense in depth —
 # the leading `*` already covers these, but listing explicitly makes

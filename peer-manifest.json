@@ -1,0 +1,20 @@
+{
+  "manifest": {
+    "version": 1,
+    "published_at_block_height": 123747,
+    "expires_at_block_height": 124771,
+    "seeds": [
+      {
+        "id": "IPV4",
+        "addr": "148.163.122.39",
+        "port": 17749
+      },
+      {
+        "id": "IPV4",
+        "addr": "72.61.4.19",
+        "port": 17749
+      }
+    ]
+  },
+  "signature": "ce35b95f31f353a319cbaa7ad908101edd61609b9ba510bf317d9d89e692da48b30e5324ff594237fb9563dc385d3677a3c5aab14b94c0f7bbe098c9db1c8103"
+}
