@@ -1,17 +1,17 @@
-version: 1.2.228
+version: 1.2.229
 files:
-  - url: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.228/Monero.USD.Wallet-1.2.228-mac.zip
-    sha512: xzwnqb4oDuQbMx5tQxEcLA4E1Bz6Ob14LRI0Nsfw/7dTl2UodNaT5mpL6ruNvvFxwm08C8S2D3dAduHRPU+mzg==
-    size: 409736939
-  - url: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.228/Monero.USD.Wallet-1.2.228-arm64-mac.zip
-    sha512: f1pY1S1/GvWxSOg1qRJi+IWgd9q6o7BxBTyS+y6oM5XMOrHSczPN1pHIgkKZgzpm6G6aa4EYNDQkVtr0Epi7bw==
-    size: 404600488
-  - url: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.228/Monero.USD.Wallet-1.2.228.dmg
-    sha512: jpOIKpHjn+xoh5Vl9ExLeqoc0wvQ5WZKdhaT32NsoDEmMgihvgwGTplvn9qlRWQ++xzfGqLlVu22te32ZZ30qA==
-    size: 425183753
-  - url: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.228/Monero.USD.Wallet-1.2.228-arm64.dmg
-    sha512: VsJLwv/OP3663/FzfybMcv1JtQtK1LCUSqAk/p89kZjk3CHXa0Z+8oNSI2wyKD5TQu3kUuX1dnlUPtcrHpr5EQ==
-    size: 420148369
-path: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.228/Monero.USD.Wallet-1.2.228-mac.zip
-sha512: xzwnqb4oDuQbMx5tQxEcLA4E1Bz6Ob14LRI0Nsfw/7dTl2UodNaT5mpL6ruNvvFxwm08C8S2D3dAduHRPU+mzg==
-releaseDate: '2026-05-16T02:51:00.136Z'
+  - url: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.229/Monero.USD.Wallet-1.2.229-mac.zip
+    sha512: +VxTxICStLq8Tuh8k8fIBlpvi3ylAuu+LavpyP0gSMpWjBY7M3ddL2dnvnvLpvcscA9ahaaMGJVi3Ps3X8D3Mg==
+    size: 409737836
+  - url: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.229/Monero.USD.Wallet-1.2.229-arm64-mac.zip
+    sha512: OByao12v2fteOqm3d7w44nevEaJYbDCXtqRjFyt9niY+pIEaATyjC3TWbdDoYaf3NX/6WVmxKDAEByyES5ajIw==
+    size: 404601385
+  - url: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.229/Monero.USD.Wallet-1.2.229.dmg
+    sha512: JgejExCYpz4EZu6TzWYhQ4Dg0Zo/D+/SIfqsY9a9nc//Nfq7M2XAKwS7+kNmVCl0oQ0C2RWtGsMjFSN/hFpQkw==
+    size: 425188458
+  - url: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.229/Monero.USD.Wallet-1.2.229-arm64.dmg
+    sha512: UljhOiWIBpq4OrS48rfhmNT2tmMs1m6IZYGqhU5oG/KF0vK0jEVQhlIsN94RsAcncjhWcDzCZMTMRoDrC0vRog==
+    size: 420148809
+path: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.229/Monero.USD.Wallet-1.2.229-mac.zip
+sha512: +VxTxICStLq8Tuh8k8fIBlpvi3ylAuu+LavpyP0gSMpWjBY7M3ddL2dnvnvLpvcscA9ahaaMGJVi3Ps3X8D3Mg==
+releaseDate: '2026-05-16T05:02:49.438Z'
