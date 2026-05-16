@@ -1,17 +1,17 @@
-version: 1.2.225
+version: 1.2.226
 files:
-  - url: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.225/Monero.USD.Wallet-1.2.225-mac.zip
-    sha512: 3k9RA1lC8NwTiwrPUiZw7oEXV6byYlug4RswHxXUCfI8MexL2rTbBDBr9JFAa+0zPmaJv4W1TY0qy19wuND+Xg==
-    size: 409686380
-  - url: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.225/Monero.USD.Wallet-1.2.225-arm64-mac.zip
-    sha512: Zy77ARWrqWYR9hUB20ssehnuM5mtxlav73whPMWWEnkp8iTt/++/X1tXCRdarb9xFtC22O/JTbg9id/TxS75Ug==
-    size: 404549929
-  - url: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.225/Monero.USD.Wallet-1.2.225.dmg
-    sha512: V8DMaNt4I9uLVRCHfy1UZ3jme5z+bB9YezF/kvr442oL3od/uq6y08HPsk2iYvU8nj7YtuztktTBTTaWrZ+/hA==
-    size: 425106070
-  - url: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.225/Monero.USD.Wallet-1.2.225-arm64.dmg
-    sha512: 4j2zIaSd4YMR9Vhtd1enWP+FPZXiRY/Zs8UBNyYnFcXwYI+X3IxoTq77YbrLIa/W8xRTIkyKTt1r5NDu1YvuLg==
-    size: 419996843
-path: https://github.com/casdevmonero/monerousd-ota-releases/releases/download/v1.2.225/Monero.USD.Wallet-1.2.225-mac.zip
-sha512: 3k9RA1lC8NwTiwrPUiZw7oEXV6byYlug4RswHxXUCfI8MexL2rTbBDBr9JFAa+0zPmaJv4W1TY0qy19wuND+Xg==
-releaseDate: '2026-05-15T06:18:41.367Z'
+  - url: Monero USD Wallet-1.2.226-mac.zip
+    sha512: FgFBakXMEko5MF5lMBNHg1+7vojg28LDp6ZNfsvaw2BkDIggUuKc7VdrCh4fc1IoKu1Zix5bI9E1r/cX00bexg==
+    size: 409733444
+  - url: Monero USD Wallet-1.2.226-arm64-mac.zip
+    sha512: zj3p5weSqsNFJbITId/XYmjVYU1JDrer9G5kc16j4mHlKBOKWfbfKxCunG8dXf4b1wqChEjwskMrTC51t11x/g==
+    size: 404596993
+  - url: Monero USD Wallet-1.2.226-arm64.dmg
+    sha512: dLgQ/pAav9PHHP5fo9x/i0VhKCLXwplnSi7vI50ClOX7DkuAMxV0oAJWYwf1k7BsxIYQ0jnAK5Ny0Y53h5vqyQ==
+    size: 420121185
+  - url: Monero USD Wallet-1.2.226.dmg
+    sha512: zcays0U9cYqOMe5mngeRq1MTE6j2CqrLQxHzuUl8GAl/pg0gr8puGQe3n2/drVrrKhUJ3Go84K7w7Rdf0vJJWg==
+    size: 425171833
+path: Monero USD Wallet-1.2.226-mac.zip
+sha512: FgFBakXMEko5MF5lMBNHg1+7vojg28LDp6ZNfsvaw2BkDIggUuKc7VdrCh4fc1IoKu1Zix5bI9E1r/cX00bexg==
+releaseDate: '2026-05-16T01:52:22.870Z'
