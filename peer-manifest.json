@@ -1,8 +1,8 @@
 {
   "manifest": {
     "version": 1,
-    "published_at_block_height": 123747,
-    "expires_at_block_height": 124771,
+    "published_at_block_height": 124271,
+    "expires_at_block_height": 125295,
     "seeds": [
       {
         "id": "IPV4",
@@ -14,7 +14,8 @@
         "addr": "72.61.4.19",
         "port": 17749
       }
-    ]
+    ],
+    "known_node_count": 3
   },
-  "signature": "ce35b95f31f353a319cbaa7ad908101edd61609b9ba510bf317d9d89e692da48b30e5324ff594237fb9563dc385d3677a3c5aab14b94c0f7bbe098c9db1c8103"
+  "signature": "f8f0556591350edc37221e6650e4c9467d5219eeec811e048fb90e07d9ebe26259eebf6661865c8e864239f0b7ba340e3eea1c02c8b7e4579fc83ba534e90406"
 }
