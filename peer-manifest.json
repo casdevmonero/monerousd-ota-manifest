@@ -1,8 +1,8 @@
 {
   "manifest": {
     "version": 1,
-    "published_at_block_height": 124271,
-    "expires_at_block_height": 125295,
+    "published_at_block_height": 125068,
+    "expires_at_block_height": 126092,
     "seeds": [
       {
         "id": "IPV4",
@@ -15,7 +15,30 @@
         "port": 17749
       }
     ],
-    "known_node_count": 3
+    "known_node_count": 3,
+    "mesh_seeds": [
+      {
+        "mesh_multiaddr": "/onion3/x2gnd2zuxvgpzqa6dbwbr2bfbzzpnjg3d2sg5iynqs4hc4bujxkosbyd:19999/ws",
+        "role": [
+          "seed",
+          "relay"
+        ]
+      },
+      {
+        "mesh_multiaddr": "/onion3/pgrp4cusdatsk5oie7jsgo44wh5ehvi5jdf264aia22pf6pgef5y5cad:19999/ws",
+        "role": [
+          "seed",
+          "relay"
+        ]
+      },
+      {
+        "mesh_multiaddr": "/onion3/2bg5yh2rdrhu7rqinc6vcxyd3eg3x6hpixp25tyyhkogzbpfs5r7asyd:19999/ws",
+        "role": [
+          "seed",
+          "relay"
+        ]
+      }
+    ]
   },
-  "signature": "f8f0556591350edc37221e6650e4c9467d5219eeec811e048fb90e07d9ebe26259eebf6661865c8e864239f0b7ba340e3eea1c02c8b7e4579fc83ba534e90406"
+  "signature": "d51f5df391959474f00892d128f1145ebf6a1c32da1c0a44472a57cba90e358ad78a11d7667518abdf90cb05fcc1be9047186b75257e2c2fee08f04ee510dc0c"
 }
